@@ -1,4 +1,5 @@
 # journalflow
+[![ci](https://github.com/venu-yara/journalflow/actions/workflows/ci.yml/badge.svg)](https://github.com/venu-yara/journalflow/actions/workflows/ci.yml)
 
 **Durable execution for LLM agents and backend workflows, in ~500 lines of Python on SQLite.**
 

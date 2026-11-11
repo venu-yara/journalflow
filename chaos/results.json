@@ -1,0 +1,22 @@
+{
+  "config": {
+    "runs": 100,
+    "steps": 8,
+    "workers": 6,
+    "crash_prob": 0.05,
+    "flaky": 0.1,
+    "lease_ttl": 1.0
+  },
+  "seconds": 7.9,
+  "worker_crashes_injected": 134,
+  "worker_crashes_poison": 5,
+  "other_worker_exits": {},
+  "lease_claims": 339,
+  "side_effects_expected": 800,
+  "side_effects_raw": 837,
+  "side_effects_deduplicated": 800,
+  "duplicates_absorbed_by_idempotency_keys": 37,
+  "poison_status": "dead",
+  "failures": [],
+  "passed": true
+}

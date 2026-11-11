@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "journalflow"
+version = "0.1.0"
+description = "Durable execution for LLM agents and backend workflows: journaled steps, deterministic replay, fenced leases, chaos-tested. Pure Python + SQLite."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools]
+packages = ["journalflow"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
